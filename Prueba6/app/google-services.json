@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "149388711113",
+    "project_id": "merlin-393ee",
+    "storage_bucket": "merlin-393ee.appspot.com"
+  },
+
+
+
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149388711113:android:c6164c9374c748b7bae918",
+        "android_client_info": {
+          "package_name": "com.android.prueba6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0SVI3SsnerBFaPjtPlv_CsIvPSIAXWiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149388711113:android:714c7e0b82a9aad7bae918",
+        "android_client_info": {
+          "package_name": "com.example.prueba6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0SVI3SsnerBFaPjtPlv_CsIvPSIAXWiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

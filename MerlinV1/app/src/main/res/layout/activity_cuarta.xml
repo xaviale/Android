@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuartaActivity">
+
+    <TextView
+        android:id="@+id/txtfecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="documento"
+        style="@style/TextViewTitulo" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        style="@style/DatePickerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtfecha"
+        android:layout_centerInParent="true"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+    <EditText
+        android:id="@+id/txtnregistro"
+        style="@style/EditTextStyle"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datePicker"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="n° registro:"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/Textrestante1"
+        style="@style/TextViewDato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtnregistro"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Restante1: 0.00" />
+
+    <TextView
+        android:id="@+id/Textrestante2"
+        style="@style/TextViewDato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Textrestante1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Restante2: 0.00" />
+
+    <TextView
+        android:id="@+id/Texttotalfilas"
+        style="@style/TextViewDato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Textrestante2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Totalfilas: 0.00" />
+
+    <TextView
+        android:id="@+id/TextD"
+        style="@style/TextViewDato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Texttotalfilas"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="D: 0.00" />
+    <TextView
+        android:id="@+id/TextIRI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextD"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="10dp"
+        android:hint="IRI: 0.00"
+        android:minHeight="48dp"
+        style="@style/TextViewSubTitulo"
+        />
+    <TextView
+        android:id="@+id/TextPSI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextIRI"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="10dp"
+        android:hint="PSI: 0.00"
+
+        style="@style/TextViewSubTitulo"
+        />
+
+    <Button
+        android:id="@+id/registrarButton"
+        style="@style/Button3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="700dp"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/enviarButton"
+        style="@style/Button1"
+        android:layout_width="100dp"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="700dp"
+        android:text="Guardar BD" />
+
+</RelativeLayout>

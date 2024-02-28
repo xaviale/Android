@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuintaActivity">
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        style="@style/DatePickerStyle"
+        android:layout_width="match_parent"
+
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="93dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+    <TextView
+        android:id="@+id/txtfecha"
+        style="@style/TextViewSubTitulo"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datePicker"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="documento" />
+
+    <Spinner
+        android:id="@+id/spinnerCollections"
+        style="@style/SpinnerStyle"
+        android:layout_width="100sp"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="176dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/analizarButton"
+        style="@style/Button2"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerCollections"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="282dp"
+        android:layout_marginTop="-90dp"
+        android:text="Analizar" />
+
+    <Button
+        android:id="@+id/enviarButton"
+        style="@style/Button1"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/analizarButton"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="13dp"
+        android:text="Ver" />
+
+    <TextView
+        android:id="@+id/txtvalor"
+        style="@style/TextViewTitulo"
+        android:layout_width="188dp"
+        android:layout_height="87dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="coleccion:" />
+
+    <TextView
+        android:id="@+id/txtvalor2"
+        style="@style/TextViewTitulo"
+        android:layout_width="197dp"
+        android:layout_height="44dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="documento:"
+
+        />
+
+    <TextView
+        android:id="@+id/Textrestante1"
+        style="@style/TextViewSubTitulo"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enviarButton"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="restante1:"
+        android:text=""
+
+        />
+
+    <TextView
+        android:id="@+id/Textrestante2"
+        style="@style/TextViewSubTitulo"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Textrestante1"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="restante2:"
+        android:text=""
+
+        />
+    <TextView
+        android:id="@+id/Texttotalfilas"
+        style="@style/TextViewSubTitulo"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Textrestante2"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="totalfilas:"
+        android:text=""
+
+        />
+
+    <TextView
+        android:id="@+id/TextD"
+        style="@style/TextViewSubTitulo"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Texttotalfilas"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="16dp"
+        android:hint="D:"
+        android:text=""
+
+        />
+    <TextView
+        android:id="@+id/TextIRI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextD"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="IRI: 0.00"
+        android:minHeight="48dp"
+        style="@style/TextViewSubTitulo"
+        />
+    <TextView
+        android:id="@+id/TextPSI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextIRI"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="PSI: 0.00"
+        android:minHeight="30dp"
+        style="@style/TextViewSubTitulo"
+        />
+</RelativeLayout>

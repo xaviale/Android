@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Merlin</string>
+    <string name="toque_una_celda_para_marcar_con_x">Toque una celda para marcar con \'X\'</string>
+    <string name="fila_columna">Fila/Columna</string>
+    <string name="ingrese_texto">Ingrese texto</string>
+    <string name="guardar">Guardar</string>
+</resources>

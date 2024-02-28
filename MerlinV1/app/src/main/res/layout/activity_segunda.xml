@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SegundaActivity">
+
+    <EditText
+        android:id="@+id/editTextData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dato de la base de datos"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnReadData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leer Dato" />
+
+    <Button
+        android:id="@+id/btnWriteData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escribir Dato" />
+    <Button
+        android:id="@+id/btnON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnWriteData"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:text="ON1"
+        style="@style/Button1"
+        />
+    <Button
+        android:id="@+id/btnOFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnWriteData"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:text="OFF1"
+        style="@style/Button3"
+        />
+    <Button
+        android:id="@+id/btnON2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnWriteData"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:text="ON2"
+        style="@style/Button1"
+        />
+    <Button
+        android:id="@+id/btnOFF2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnWriteData"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:text="OFF2"
+        style="@style/Button3"
+        />
+</LinearLayout>

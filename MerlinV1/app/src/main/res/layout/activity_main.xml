@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity"
+
+    >
+
+
+    <Button
+        android:id="@+id/btnReporte"
+
+
+        style="@style/Button1"
+        android:layout_width="289dp"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="48dp"
+        android:text="Reporte" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        style="@style/Button2"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnReporte"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="53dp"
+        android:text="Registrar" />
+
+    <Button
+        android:id="@+id/btnFecha"
+        style="@style/Button3"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegistro"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="57dp"
+        android:text="Bluetooth" />
+</RelativeLayout>
